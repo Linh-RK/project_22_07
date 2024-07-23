@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./user.css" />
+    <title>List Users</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="wrap">
+        <!-- ===============Bar================== -->
+
+        <div class="bar">
+          <div class="logo">
+            <img src="..//asests/img/logo.png" alt="" />
+          </div>
+          <div class="nav-bar">
+            <ul>
+              <li class="line user">
+                <a href=""><i class="fa-solid fa-user"></i> User </a>
+              </li>
+              <li class="line categories">
+                <a href=""
+                  ><i class="fa-solid fa-table-cells"></i> Categories
+                </a>
+              </li>
+              <li class="line product-list">
+                <a href=""
+                  ><i class="fa-solid fa-table-list"></i> Product List
+                </a>
+              </li>
+              <li class="line order">
+                <a href=""
+                  ><i class="fa-solid fa-money-check-dollar"></i> Order
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- ===============Content================= -->
+        <div class="content">
+          <div class="top">
+            <h2>LIST USERS</h2>
+            <div class="search">
+              <input type="text" />
+              <button><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+          </div>
+          <!-- ===============Content================= -->
+          <div class="bottom">
+            <div class="products-control">
+              <h3 class="product-title">TABLE LIST USERS</h3>
+              <div class="control-button">
+                <button class="btn filter">
+                  <i class="fa-regular fa-filter"></i> Filter
+                </button>
+                <button class="btn see-all">See All</button>
+                <button class="btn add">
+                  <i class="fa-solid fa-plus"></i> Add
+                </button>
+                <!-- ====ADD BOX====== -->
+               
+                 <!-- ============== -->
+              </div>
+            </div>
+            <hr />
+            <!-- ===============Content================= -->
+            <div class="product-table">
+              <table>
+                <thead>
+                  <th>ID</th>
+                  <th>Username</th>
+                  <th>Email</th>
+                  <th>Phone Number</th>
+                  <th>Birthday</th>
+                  <th>Gender</th>
+                  <th>Status</th>
+                  <th>Action</th>
+                </thead>
+                <tr>
+                  <td>1</td>
+                  <td>Linh_Linh</td>
+                    <td>linh@gmail.com</td>
+                    <td>0987654321</td>
+                    <td>10/11/1993</td>
+                    <td>female</td>
+                    <td>on</td>
+                  <td>
+                    <button>Ban/Open</button>
+                  </td>
+                </tr>
+              </table>
+              <!-- ===============Content================= -->
+
+              <!-- neu de grid thi xay ra laf cac col co chieu rong bi chenh nhau -->
+              <!-- <section class="product-info">
+                <div class="table-head">
+                  <div class="col1">
+                    <input type="checkbox" />
+                    <span>Product Name</span>
+                    <i class="fa-solid fa-angle-down"></i>
+                  </div>
+                  <div class="col2">Categories<i class="fa-solid fa-angle-down"></i></div>
+                  <div class="col3">Price<i class="fa-solid fa-angle-down"></i></div>
+                  <div class="col4">Stock<i class="fa-solid fa-angle-down"></i></div>
+                  <div class="col5">Status<i class="fa-solid fa-angle-down"></i></div>
+                  <div class="col6">Action<i class="fa-solid fa-angle-down"></i></div>
+                </div>
+                <div class="product">
+                  <div class="col1">
+                    <input type="checkbox" />
+                    <img src="" alt="">
+                    <span>AAAAAAA</span>
+                  </div>
+                  <div class="col2">AAAAAAA</div>
+                  <div class="col3">AAAAAAA</div>
+                  <div class="col4">AAAAAAA</div>
+                  <div class="col5">AAAAAAA</div>
+                  <div class="col6">AAAAAAA</div>
+                </div> -->
+              </section>
+              <section class="page-control">
+                <button class="pre">Previous</button>
+                <div class="page">
+                  <button>1</button>
+                  <button>2</button>
+                  <button>3</button>
+                  <button>4</button>
+                  <button>5</button>
+                  <button>6</button>
+                  <button>7</button>
+                  <button>8</button>
+                  <button>9</button>
+                  <button>10</button>
+                </div>
+                <button class="next">Next</button>
+              </section>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./user.js"></script>
+  </body>
+</html>

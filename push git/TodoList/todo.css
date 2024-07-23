@@ -1,0 +1,22 @@
+.true {
+  color: green;
+  background-color: lightgray;
+}
+.false {
+  color: brown;
+}
+li {
+  display: flex;
+  justify-content: space-between;
+}
+.add {
+  display: flex;
+  width: 100%;
+  margin: 0 20%;
+  background-color: rgba(255, 205, 112, 0.824);
+}
+input {
+  line-height: 1.5rem;
+  padding: 10px;
+  width: 50%;
+}
